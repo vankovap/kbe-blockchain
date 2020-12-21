@@ -2,7 +2,7 @@
 
 ### 1. Finding the vulnerability
 
-![Screenshot 2020-12-21 at 1.23.47 PM](/Users/vankovap/Documents/FEL/sem3/KBE/kbe-blockchain/images/Screenshot 2020-12-21 at 1.23.47 PM.png)
+![Screenshot 2020-12-21 at 1.23.47 PM](images/Screenshot 2020-12-21 at 1.23.47 PM.png)
 
 From this difference it is clear that the changed code is only able to generate a maximum of 3000 distinct private keys. 
 
@@ -10,9 +10,9 @@ From this difference it is clear that the changed code is only able to generate 
 
 The problem is, that the code above still generates the keys randomly, so it would take a huge amount of time to get all possible keys. So I made a few changes to the original code so that I can get all the keys in one go:
 
-![Screenshot 2020-12-21 at 12.38.15 PM](/Users/vankovap/Documents/FEL/sem3/KBE/kbe-blockchain/images/Screenshot 2020-12-21 at 12.38.15 PM.png)
+![Screenshot 2020-12-21 at 12.38.15 PM](images/Screenshot 2020-12-21 at 12.38.15 PM.png)
 
-![Screenshot 2020-12-21 at 12.40.15 PM](/Users/vankovap/Documents/FEL/sem3/KBE/kbe-blockchain/images/Screenshot 2020-12-21 at 12.40.15 PM.png)
+![Screenshot 2020-12-21 at 12.40.15 PM](images/Screenshot 2020-12-21 at 12.40.15 PM.png)
 
 The line 5655 on the right should be useless, but apart from a small increase in the execution time, the result is the same.
 
